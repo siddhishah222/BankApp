@@ -123,7 +123,7 @@ const TransactionCreateStepTwo: React.FC<TransactionCreateStepTwoProps> = ({
             createTransaction({ transactionType, ...values });
             showSnackbar({
               severity: "success",
-              message: "Transaction Submitted successfully!",
+              message: "Transaction Submitted successfully!!",
             });
           }}
         >
